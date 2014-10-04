@@ -1,52 +1,44 @@
 body{
-		background-color: beige;
+		background-image: url('https://lh3.googleusercontent.com/-CBh-RbNazl8/U6EGSB0D9OI/AAAAAAAAQ_c/zdlLXiP2pRo/w1533-h863-no/WP_20131026_081.jpg');
 }
-h1, body /*fonts credited to cssfontstack.com*/{
-	  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
-		font-size: 0.938em /* 15px golden*/
-		line-height: 24.27px
-		line-height: 1.517em
-}
-bio{
-	  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+body /*fonts credited to cssfontstack.com*/{
+		font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+		font-size: 0.938em; /* 15px golden*/
+		line-height: 24.27px;
+		line-height: 1.517em;
 }
 ul{
-	  list-style: none;
+		list-style: none;
 		padding-left: 0;
 }
 ul.experience{
-	  list-style: none;
+		list-style: none;
 		padding-left: 0;
 }
-
-ul.nav{
-	  list-style: none;
-		padding: 0;
-		position: fixed;
-}
-li.nav{
-		display: inline;
-}
 div.left{
+		position: relative;
+		background-color: red;
 		float:left;
-		width: 10%;
+		width: 15%;
 		padding: 0 0 0 1em;
 		margin: 0;
 }
 div.right{
-		width: 90%;
+		position: relative;
+		width: 85%;
 		float: right;
 		padding: 0 0 0 1em;
 		margin: 0;
 }
-div.name{
+/* div.name{
 		float:left;
 		width: 25%;
 		padding: 0 0 0 1em;
 		margin: 0;
-}
-div.pic{
+} */
+/* div.pic{
 		width: 75%;
 		padding: 0 0 0 1em;
 		margin: 0;
 }
+ */
