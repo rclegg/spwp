@@ -1,0 +1,5 @@
+*~
+*.swp
+*.swo
+
+#ideas for these ignores taken from http://stackoverflow.com/questions/4824188/git-ignore-vim-temporary-files
