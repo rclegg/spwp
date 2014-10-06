@@ -1,7 +1,8 @@
 body{
-		background-image: url('https://lh3.googleusercontent.com/-CBh-RbNazl8/U6EGSB0D9OI/AAAAAAAAQ_c/zdlLXiP2pRo/w1533-h863-no/WP_20131026_081.jpg');
-}
-body /*fonts credited to cssfontstack.com*/{
+		background-image: url('rich.jpg');
+		background-repeat: no-repeat;
+		background-size: contain;
+/*fonts credited to cssfontstack.com*/
 		font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 		font-size: 0.938em; /* 15px golden*/
 		line-height: 24.27px;
@@ -15,30 +16,24 @@ ul.experience{
 		list-style: none;
 		padding-left: 0;
 }
-div.left{
-		position: relative;
-		background-color: red;
-		float:left;
-		width: 15%;
+div.name{
+		background-color: transparent;
+		width: 29.03em;
+		height: 11.089em;
 		padding: 0 0 0 1em;
-		margin: 0;
+}
+div.subtitle{
+		position: relative;
+		background-color: beige;
+		float: left;
+		width: 29.03em;
+		padding: 0 0 0 1em;
+}
+div.left{
+		background-color: red;
+		width: 17.942em;
 }
 div.right{
-		position: relative;
-		width: 85%;
-		float: right;
-		padding: 0 0 0 1em;
-		margin: 0;
+		background-color: beige;
+		width: 17.942em;
 }
-/* div.name{
-		float:left;
-		width: 25%;
-		padding: 0 0 0 1em;
-		margin: 0;
-} */
-/* div.pic{
-		width: 75%;
-		padding: 0 0 0 1em;
-		margin: 0;
-}
- */
